@@ -21,10 +21,10 @@ ALTER TABLE Customers DROP COLUMN City;
 ALTER TABLE Customers ADD City VARCHAR(20);
 
 -- Insert sample data into Customers
-INSERT INTO Customers (First_name, Last_name, Email, DateOfPurchase, CustomerID, City) 
+INSERT INTo Customers (First_name, Last_name, Email, DateOfPurchase, CustomerID, City) 
 VALUES 
     ('Vinay', 'Nagarjuna', 'vinay.nagarjuna@zoho.in', '2023-12-12', 1, 'Bangalore'),
-    ('Giri', 'Bharath', 'giri.lokesh@zoho.in', '2023-12-12', 2, 'Chennai');
+    ('Giri', 'Bharath', 'giri.lokesh@zoho.in', '2023-12-12', 2, 'Hyderabad');
 
 -- Select all from Customers
 SELECT * FROM Customers;
