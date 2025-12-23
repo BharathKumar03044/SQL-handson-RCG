@@ -7,9 +7,9 @@ SELECT * FROM Customers;
 INSERT INTO Customers (First_name, Last_name, Email, DateOfPurchase, CustomerID, City) 
 VALUES
     ('Vinay', 'Nagarjuna', 'vinay.nagarjuna@zoho.in', '2013-06-04', 2, 'Salem'),
-    ('Smitha', 'Patel', 'smitha.patel@zoho.in', '2013-11-09', 3, 'Salem'),
+    ('Smitha', 'Patel', 'smitha.patel@zoho.in', '2013-11-09', 3, 'thirchy'),
     ('Nagarjuna', 'Raj', 'nagarjuna.raj@zoho.in', '2013-06-04', 4, 'Chennai');
-    ('Giri', 'Gowtham', 'giri.raj@zoho.in', '2013-06-04', 5, 'Chennai');
+    ('Giri', 'Gowtham', 'giri.raj@zoho.in', '2013-06-04', 5, 'madhurai');
 
 -- Select all from Customers after insertion
 SELECT * FROM Customers;
