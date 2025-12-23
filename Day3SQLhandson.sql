@@ -14,7 +14,6 @@ VALUES
     ('Priya', 'Patel', 'priyapatel@rediffmail.com', 'Software Engineering', '2022-03-15', 102, 502),
     ('Mohit', 'Sharma', 'mohitsharma@rediffmail.com', 'Data Structures', '2021-06-20', 103, 503),
     ('Deepak', 'Kumar', 'deepakumar@rediffmail.com', 'Network Security', '2020-11-10', 104, 504),
-    ('Suman', 'Verma', 'sumanverma@rediffmail.com', 'Machine Learning', '2024-05-15', 105, 505),
     ('Verma', 'sumanverma@rediffmail.com', 'Kolkata', '2024-05-15', 'Sunil', '1998-11-30', 205);
 -- Inserting updated data into the Instructor table
 INSERT INTO Instructor
