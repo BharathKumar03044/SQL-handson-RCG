@@ -9,6 +9,7 @@ VALUES
     ('Vinay', 'Nagarjuna', 'vinay.nagarjuna@zoho.in', '2013-06-04', 2, 'Salem'),
     ('Smitha', 'Patel', 'smitha.patel@zoho.in', '2013-11-09', 3, 'Salem'),
     ('Nagarjuna', 'Raj', 'nagarjuna.raj@zoho.in', '2013-06-04', 4, 'Chennai');
+    ('Giri', 'Gowtham', 'giri.raj@zoho.in', '2013-06-04', 5, 'Chennai');
 
 -- Select all from Customers after insertion
 SELECT * FROM Customers;
