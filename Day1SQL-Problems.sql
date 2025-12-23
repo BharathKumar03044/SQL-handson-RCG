@@ -66,7 +66,7 @@ CREATE TABLE Courses(
 -- Insert data into the Courses table
 INSERT INTO Courses (First_name, Last_name, Email, course, DateOfJoining, StudentID) 
 VALUES 
-    ('Vinay', 'Naveen', 'vinay.nagarjuna@zoho.in', 'SQL', '2024-10-13', 111); -- Corrected insert
+    ('Vinay', 'Test', 'vinay.nagarjuna@zoho.in', 'SQL', '2024-10-13', 111); -- Corrected insert
 
 -- Select all records from the Courses table
 SELECT * FROM Courses;
