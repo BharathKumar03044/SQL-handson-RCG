@@ -4,8 +4,8 @@ VALUES
     ('Singh', 'arjunsingh@rediffmail.com', 'New Delhi', '2023-08-01', 'Arjun', '2000-05-15', 101),
     ('Patel', 'priyapatel@rediffmail.com', 'Mumbai', '2022-03-15', 'Priya', '1999-08-23', 102),
     ('Sharma', 'mohitsharma@rediffmail.com', 'Chennai', '2021-06-20', 'Mohit', '2001-12-03', 103),
-    ('Kumar', 'deepakumar@rediffmail.com', 'Bangalore', '2020-11-10', 'Deepak', '2002-03-10', 104),
-    ('Verma', 'sumanverma@rediffmail.com', 'Kolkata', '2024-05-15', 'Suman', '1998-11-30', 105);
+    ('Kumar', 'deepakumar@rediffmail.com', 'Bangalore', '2020-11-10', 'Deraja', '2002-03-10', 104),
+    ('Verma', 'sumanverma@rediffmail.com', 'Kolkata', '2024-05-15', 'Sunil', '1998-11-30', 105);
 
 -- Inserting updated data into the Courses table
 INSERT INTO Courses (First_name, Last_name, Email, course, DateOfJoining, StudentID, CourseID)
@@ -14,8 +14,8 @@ VALUES
     ('Priya', 'Patel', 'priyapatel@rediffmail.com', 'Software Engineering', '2022-03-15', 102, 502),
     ('Mohit', 'Sharma', 'mohitsharma@rediffmail.com', 'Data Structures', '2021-06-20', 103, 503),
     ('Deepak', 'Kumar', 'deepakumar@rediffmail.com', 'Network Security', '2020-11-10', 104, 504),
-    ('Suman', 'Verma', 'sumanverma@rediffmail.com', 'Machine Learning', '2024-05-15', 105, 505);
-
+    ('Suman', 'Verma', 'sumanverma@rediffmail.com', 'Machine Learning', '2024-05-15', 105, 505),
+    ('Verma', 'sumanverma@rediffmail.com', 'Kolkata', '2024-05-15', 'Sunil', '1998-11-30', 205);
 -- Inserting updated data into the Instructor table
 INSERT INTO Instructor
 VALUES 
