@@ -98,8 +98,8 @@ INSERT INTO Students (First_name, Last_name, Email, City, DateOfJoining, birthda
 VALUES
     ('Vinay', 'Nagarjuna', 'vinay.nagarjuna@zoho.in', 'Chennai', '2012-04-12', '1997-04-02', 111),
     ('Smitha', 'Patel', 'smitha.patel@zoho.in', 'mumbai', '2012-04-12', '1996-11-23', 222),
-      ('Vijay', 'Naresh', 'vijay.nagarjuna@zoho.in', 'banglore', '2012-04-12', '1997-04-02', 1212),
-    ('Samir', 'Patel', 'samir.patel@zoho.in', 'hyderbad', '2012-04-12', '1996-11-23', 333);
+      ('Vinay', 'Naveen', 'vijay.nagarjuna@zoho.in', 'banglore', '2012-04-12', '1997-04-02', 1212),
+    ('Samir', 'Priya', 'samir.patel@zoho.in', 'hyderbad', '2012-04-12', '1996-11-23', 333);
 
 -- Update email for a specific student
 UPDATE Students 
