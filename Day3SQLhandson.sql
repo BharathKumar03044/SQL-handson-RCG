@@ -11,10 +11,10 @@ VALUES
 INSERT INTO Courses (First_name, Last_name, Email, course, DateOfJoining, StudentID, CourseID)
 VALUES 
     ('Arjun', 'Singh', 'arjunsingh@rediffmail.com', 'Database Management', '2023-08-01', 101, 501),
-    ('Priya', 'Patel', 'priyapatel@rediffmail.com', 'Software Engineering', '2022-03-15', 102, 502),
-    ('Mohit', 'Sharma', 'mohitsharma@rediffmail.com', 'Data Structures', '2021-06-20', 103, 503),
+    ('Priyaka', 'Patel', 'priyapatel@rediffmail.com', 'Software Engineering', '2022-03-15', 102, 502),
+    ('Mahesh', 'Sharma', 'mohitsharma@rediffmail.com', 'Data Structures', '2021-06-20', 103, 503),
     ('Deepak', 'Kumar', 'deepakumar@rediffmail.com', 'Network Security', '2020-11-10', 104, 504),
-    ('Verma', 'sumanverma@rediffmail.com', 'Kolkata', '2024-05-15', 'Sunil', '1998-11-30', 205),
+    ('Vamsi', 'sumanverma@rediffmail.com', 'Kolkata', '2024-05-15', 'Sunil', '1998-11-30', 205),
     ('jajun', 'Singh', 'arjunsingh@rediffmail.com', 'Database Management', '2023-08-01', 109, 509)
      ('Arjun', 'Singh', 'arjunsingh@rediffmail.com', 'Database Management', '2023-08-01', 108, 508);
 -- Inserting updated data into the Instructor table
