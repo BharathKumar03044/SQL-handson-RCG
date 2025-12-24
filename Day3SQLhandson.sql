@@ -24,7 +24,8 @@ VALUES
     (2, 502, 'Prof. Priya Gupta', 'priyagupta@rediffmail.com'),
     (3, 503, 'Dr. Mohit Iyer', 'mohitiyer@rediffmail.com'),
     (4, 504, 'Prof. Deepak Reddy', 'deepakreddy@rediffmail.com'),
-    (5, 505, 'Dr. Suman Sharma', 'sumansharma@rediffmail.com');
+    (5, 505, 'Dr. Suman Sharma', 'sumansharma@rediffmail.com'),
+    (6, 506, 'dr. mahesh Reddy', 'maheshreddy@rediffmail.com');
 
 -- Inserting updated data into the Assignments table
 INSERT INTO Assignments
