@@ -97,7 +97,9 @@ SELECT * FROM Enrollments;
 INSERT INTO Students (First_name, Last_name, Email, City, DateOfJoining, birthdate, StudentID) 
 VALUES
     ('Vinay', 'Nagarjuna', 'vinay.nagarjuna@zoho.in', 'Chennai', '2012-04-12', '1997-04-02', 111),
-    ('Smitha', 'Patel', 'smitha.patel@zoho.in', 'Chennai', '2012-04-12', '1996-11-23', 222);
+    ('Smitha', 'Patel', 'smitha.patel@zoho.in', 'Chennai', '2012-04-12', '1996-11-23', 222),
+      ('Vizay', 'Nagarjuna', 'vinay.nagarjuna@zoho.in', 'Chennai', '2012-04-12', '1997-04-02', 1212),
+    ('Samir', 'Patel', 'smitha.patel@zoho.in', 'Chennai', '2012-04-12', '1996-11-23', 333);
 
 -- Update email for a specific student
 UPDATE Students 
