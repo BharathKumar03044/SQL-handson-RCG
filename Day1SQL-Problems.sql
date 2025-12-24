@@ -85,10 +85,10 @@ CREATE TABLE Enrollments(
 -- Insert data into Enrollments table
 INSERT INTO Enrollments (EnrollmentID, StudentID, CourseID, EnrollmentDate) 
 VALUES 
-    (1, 1, 101, '2024-03-08'),
-    (2, 2, 102, '2024-03-09'),
-    (3, 3, 103, '2024-03-10'),
-    (4, 1, 102, '2024-03-11');
+    (1, 1, 1021, '2024-03-08'),
+    (2, 2, 1023, '2024-03-09'),
+    (3, 3, 1031, '2024-03-10'),
+    (4, 1, 1032, '2024-03-11');
 
 -- Select all records from Enrollments
 SELECT * FROM Enrollments;
