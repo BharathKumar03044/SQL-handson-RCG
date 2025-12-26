@@ -66,7 +66,7 @@ CREATE TABLE Courses(
 -- Insert data into the Courses table
 INSERT INTO Courses (First_name, Last_name, Email, course, DateOfJoining, StudentID) 
 VALUES 
-    ('Vinay', 'Nagarjuna', 'vinay.nagarjuna@zoho.in', 'SQL', '2024-10-13', 111); -- Corrected insert
+    ('Vinay', 'Test', 'vinay.nagarjuna@zoho.in', 'SQL', '2024-10-13', 111); -- Corrected insert
 
 -- Select all records from the Courses table
 SELECT * FROM Courses;
@@ -85,10 +85,10 @@ CREATE TABLE Enrollments(
 -- Insert data into Enrollments table
 INSERT INTO Enrollments (EnrollmentID, StudentID, CourseID, EnrollmentDate) 
 VALUES 
-    (1, 1, 101, '2024-03-08'),
-    (2, 2, 102, '2024-03-09'),
-    (3, 3, 103, '2024-03-10'),
-    (4, 1, 102, '2024-03-11');
+    (1, 1, 1021, '2024-03-08'),
+    (2, 2, 1023, '2024-03-09'),
+    (3, 3, 1031, '2024-03-10'),
+    (4, 1, 1032, '2024-03-11');
 
 -- Select all records from Enrollments
 SELECT * FROM Enrollments;
@@ -97,7 +97,9 @@ SELECT * FROM Enrollments;
 INSERT INTO Students (First_name, Last_name, Email, City, DateOfJoining, birthdate, StudentID) 
 VALUES
     ('Vinay', 'Nagarjuna', 'vinay.nagarjuna@zoho.in', 'Chennai', '2012-04-12', '1997-04-02', 111),
-    ('Smitha', 'Patel', 'smitha.patel@zoho.in', 'Chennai', '2012-04-12', '1996-11-23', 222);
+    ('Smitha', 'Patel', 'smitha.patel@zoho.in', 'mumbai', '2012-04-12', '1996-11-23', 222),
+      ('Vinay', 'Naveen', 'vijay.nagarjuna@zoho.in', 'banglore', '2012-04-12', '1997-04-02', 1212),
+    ('Samir', 'Priya', 'samir.patel@zoho.in', 'hyderbad', '2012-04-12', '1996-11-23', 333);
 
 -- Update email for a specific student
 UPDATE Students 
