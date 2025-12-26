@@ -41,14 +41,14 @@ INSERT INTO Customers (FirstName, LastName, Email, Phone, Address, City, State, 
 VALUES
 ('James', 'Doe', 'john.doe@example.com', '5434567890', '123 Main St', 'Nellore', 'AP', '524001', 'India', '1985-06-15'),
 ('Jahh', 'Sahari', 'jane.smith@example.com', '9876543210', '456 Market Rd', 'Hyderabad', 'TS', '500001', 'India', '1990-09-20'),
-('Rajesh', 'Kumar', 'raj.kumar@example.com', '9988776655', '789 Park Ave', 'Chennai', 'TN', '600001', 'India', '1988-12-05');
+('Rajesh', 'Kumar', 'raj.kumar@example.com', '9988776655', '765 Park Ave', 'Chennai', 'TN', '600001', 'India', '1988-12-05');
 
 -- Insert sample products
 INSERT INTO Products (ProductName, Description, Price, StockQuantity, Category)
 VALUES
-('Laptop', '15-inch laptop with 8GB RAM and 512GB SSD', 75000.00, 10, 'Electronics'),
-('Smartphone', 'Android smartphone with 128GB storage', 25000.00, 25, 'Electronics'),
-('Headphones', 'Wireless noise-cancelling headphones', 5000.00, 50, 'Accessories');
+('Laptop+iphone', '15-inch laptop with 8GB RAM and 512GB SSD', 75000.00, 10, 'Electronics'),
+('Smartphone+headset', 'Android smartphone with 128GB storage', 25000.00, 25, 'Electronics'),
+('Headphones+iphonesmartwatch', 'Wireless noise-cancelling headphones', 5000.00, 50, 'Accessories');
 
 -- Insert sample orders (linking customers and products)
 INSERT INTO Orders (CustomerID, ProductID, Quantity, TotalAmount)
