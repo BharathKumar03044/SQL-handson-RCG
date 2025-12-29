@@ -48,7 +48,7 @@ INSERT INTO Products (ProductName, Description, Price, StockQuantity, Category)
 VALUES
 ('Laptop', '15-inch laptop with 8GB RAM and 512GB SSD', 75000.00, 10, 'Electronics'),
 ('Smartphone', 'Android smartphone with 128GB storage', 25000.00, 25, 'Electronics'),
-('Headphones', 'Wireless noise-cancelling headphones', 5000.00, 50, 'Accessories');
+('iphone', 'Wireless noise-cancelling headphones', 5000.00, 50, 'Accessories');
 
 -- Insert sample orders (linking customers and products)
 INSERT INTO Orders (CustomerID, ProductID, Quantity, TotalAmount)
