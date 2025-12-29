@@ -39,16 +39,16 @@ CREATE TABLE Orders (
 -- Insert sample customers
 INSERT INTO Customers (FirstName, LastName, Email, Phone, Address, City, State, PostalCode, Country, DateOfBirth)
 VALUES
-('James', 'Doe', 'john.doe@example.com', '5434567890', '123 Main St', 'Nellore', 'AP', '524001', 'India', '1985-06-15'),
-('Jahh', 'Sahari', 'jane.smith@example.com', '9876543210', '456 Market Rd', 'Hyderabad', 'TS', '500001', 'India', '1990-09-20'),
-('Rajesh', 'Kumar', 'raj.kumar@example.com', '9988776655', '765 Park Ave', 'Chennai', 'TN', '600001', 'India', '1988-12-05');
+('kavitha', 'Doe', 'john.doe@example.com', '5434567890', '123 Main St', 'Nellore', 'AP', '524001', 'India', '1985-06-15'),
+('John', 'Sahari', 'jane.smith@example.com', '9876543210', '456 Market Rd', 'Hyderabad', 'TS', '500001', 'India', '1990-09-20'),
+('naveen', 'Kumar', 'raj.kumar@example.com', '9988776655', '765 Park Ave', 'Chennai', 'TN', '600001', 'India', '1988-12-05');
 
 -- Insert sample products
 INSERT INTO Products (ProductName, Description, Price, StockQuantity, Category)
 VALUES
-('moto', '15-inch laptop with 8GB RAM and 512GB SSD', 75000.00, 10, 'Electronics'),
+('moto', 'android smart phonev8GB RAM and 512GB SSD', 75000.00, 10, 'Electronics'),
 ('vivophone', 'Android smartphone with 128GB storage', 25000.00, 25, 'Electronics'),
-('nanoiphone', 'Wireless noise-cancelling headphones', 5000.00, 50, 'Accessories');
+('nanoiphone', 'Wireless noise-cancelling headphones', 5000.00, 50, 'electronic');
 
 -- Insert sample orders (linking customers and products)
 INSERT INTO Orders (CustomerID, ProductID, Quantity, TotalAmount)
