@@ -39,9 +39,9 @@ CREATE TABLE Orders (
 -- Insert sample customers
 INSERT INTO Customers (FirstName, LastName, Email, Phone, Address, City, State, PostalCode, Country, DateOfBirth)
 VALUES
-('kavitha', 'Doe', 'john.doe@example.com', '5434567890', '123 Main St', 'Nellore', 'AP', '524001', 'India', '1985-06-15'),
-('John', 'Sahari', 'jane.smith@example.com', '9876543210', '456 Market Rd', 'Hyderabad', 'TS', '500001', 'India', '1990-09-20'),
-('naveen', 'Kumar', 'raj.kumar@example.com', '9988776655', '765 Park Ave', 'Chennai', 'TN', '600001', 'India', '1988-12-05');
+('kavitha', 'Doe', 'john.doe@example.com', '5434567890', '124 gt hifi', 'Nellore', 'AP', '524001', 'India', '1985-06-15'),
+('John', 'Sahari', 'jane.smith@example.com', '9876543210', '456 Market up', 'Hyderabad', 'TS', '500001', 'India', '1990-09-20'),
+('naveen', 'Kumar', 'raj.kumar@example.com', '9988776655', '765 Park number peter', 'Chennai', 'TN', '600001', 'India', '1988-12-05');
 
 -- Insert sample products
 INSERT INTO Products (ProductName, Description, Price, StockQuantity, Category)
